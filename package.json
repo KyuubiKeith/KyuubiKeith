@@ -1,0 +1,34 @@
+{
+  "name": "kyuubikeith-portfolio",
+  "version": "0.0.1",
+  "description": "The Design & Development Portfolio of Keith Otinya",
+  "main": "/02_Source/HavoxWorx.js",
+  "scripts": {
+    "build": "snowpack build",
+    "start": "snowpack dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyuubiKeith/KyuubiKeith.git"
+  },
+  "author": "KyuubiKeith",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/KyuubiKeith/KyuubiKeith/issues"
+  },
+  "homepage": "https://github.com/KyuubiKeith/KyuubiKeith/01_Public",
+  "devDependencies": {
+    "@contentful/rich-text-react-renderer": "^15.0.0",
+    "@snowpack/plugin-react-refresh": "^2.5.0",
+    "@snowpack/plugin-sass": "^1.4.0",
+    "@snowpack/plugin-webpack": "^3.0.0",
+    "lottie-web": "^5.7.12",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "snowpack": "^3.8.2"
+  }
+}
